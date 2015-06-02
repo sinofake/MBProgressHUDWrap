@@ -32,7 +32,7 @@
 
 /* Begin PBXFileReference section */
 		00F82F901B1C602200080724 /* MBProgressHUDWrap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MBProgressHUDWrap.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		00F82F941B1C602200080724 /* Info.plis */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Info.plis; sourceTree = "<group>"; };
+		00F82F941B1C602200080724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00F82F951B1C602200080724 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		00F82F971B1C602200080724 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		00F82F981B1C602200080724 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		00F82FA01B1C602200080724 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		00F82FA31B1C602200080724 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		00F82FA91B1C602200080724 /* MBProgressHUDWrapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MBProgressHUDWrapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		00F82FAE1B1C602200080724 /* Info.plis */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Info.plis; sourceTree = "<group>"; };
+		00F82FAE1B1C602200080724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00F82FAF1B1C602200080724 /* MBProgressHUDWrapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUDWrapTests.m; sourceTree = "<group>"; };
 		00F82FBA1B1C653A00080724 /* 37x-Checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "37x-Checkmark.png"; sourceTree = "<group>"; };
 		00F82FBB1B1C653A00080724 /* 37x-Checkmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "37x-Checkmark@2x.png"; sourceTree = "<group>"; };
@@ -107,7 +107,7 @@
 		00F82F931B1C602200080724 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				00F82F941B1C602200080724 /* Info.plis */,
+				00F82F941B1C602200080724 /* Info.plist */,
 				00F82F951B1C602200080724 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -125,7 +125,7 @@
 		00F82FAD1B1C602200080724 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				00F82FAE1B1C602200080724 /* Info.plis */,
+				00F82FAE1B1C602200080724 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
