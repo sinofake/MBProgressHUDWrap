@@ -16,13 +16,13 @@ typedef NS_ENUM(NSInteger, HUDTemporaryType) {
     HUDTemporaryTypeIndicatorOnly    = 1,//就一个菊花
     HUDTemporaryTypeIndicatorAndText = 2,//菊花和文本
     HUDTemporaryTypeSuccess          = 3,//
-    HUDTemporaryTypeError            = 4//
+    HUDTemporaryTypeError            = 4//目前同Success一样
 };
 
 typedef NS_ENUM(NSInteger, HUDSwitchType) {
     HUDSwitchTypeTextOnly = 0,
     HUDSwitchTypeSuccess  = 1,
-    HUDSwitchTypeError    = 2
+    HUDSwitchTypeError    = 2//目前同Success一样
 };
 
 @interface MBProgressHUDWrap : NSObject
@@ -50,7 +50,7 @@ typedef NS_ENUM(NSInteger, HUDSwitchType) {
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 /**
- *  临时的HUD，自动hide 默认duration:HUDShowTime
+ *  临时的HUD，自动hide 默认duration:kHUDShowTime(1.5s)
  *
  *  @param type
  *  @param view <#view description#>
@@ -59,17 +59,7 @@ typedef NS_ENUM(NSInteger, HUDSwitchType) {
  *  @return <#return value description#>
  */
 + (MBProgressHUD *)showTemporaryHUDWithType:(HUDTemporaryType)type addedTo:(UIView *)view text:(NSString *)text;
-/**
- *  duration
- *
- *  @param type     <#type description#>
- *  @param view     <#view description#>
- *  @param text     <#text description#>
- *  @param duration <#duration description#>
- *
- *  @return <#return value description#>
- */
-+ (MBProgressHUD *)showTemporaryHUDWithType:(HUDTemporaryType)type addedTo:(UIView *)view text:(NSString *)text duration:(NSTimeInterval)duration;
+
 /**
  *  completionBlock
  *
